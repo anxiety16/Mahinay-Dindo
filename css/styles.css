@@ -1,4 +1,7 @@
 /* Reset some default styles */
+html {
+    scroll-behavior: smooth;
+}
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -15,7 +18,9 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
+.color1 {
+    color: #654321; 
+ }
 nav {
     display: flex;
     justify-content: center;
@@ -29,8 +34,10 @@ nav {
 
 .logo1 img {
     width: 200px; 
-    height: auto; 
+    height: auto;
 }
+
+
 nav ul {
     list-style: none;
     display: flex;
@@ -89,6 +96,8 @@ nav a:hover {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+
 
 .about {
     padding: 100px 0;

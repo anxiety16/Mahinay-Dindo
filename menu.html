@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CozyCup Coffee House Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,6 +17,10 @@
             margin: 0 auto;
             padding: 20px;
         }
+        .highlight {
+        color: #654321; 
+        }
+
         .header {
             text-align: center;
             margin-bottom: 40px;
@@ -60,7 +65,6 @@
     <script>
         window.onload = function() {
             if (window.self === window.top) {
-                // Redirect if not in iframe
                 window.location.href = "index.html";
             }
         }
@@ -69,38 +73,32 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Our Coffees</h1>
+            <h1><span class="highlight">Our Coffee</span>
         </div>
         <div class="menu-grid">
             <div class="menu-item">
-                <img src="cappuccino.jpg" alt="Cappuccino">
-                <h3>Cappuccino</h3>
-                <p>A classic coffee with a perfect balance of espresso, steamed milk, and foam.</p>
-                <div class="price">₱224.00</div>
+                <img src="img/chofee_ice_cream.jpg" alt="Chocolate Coffee Float">
+                <h3>Chocolate Coffee Float</h3>
+                <p>A Coffee with a Chocolate a perfect taste for Coffee lover and Chocolate lover </p>
+                <div class="price">₱189.00</div>
             </div>
             <div class="menu-item">
-                <img src="colombian_sunrise.jpg" alt="Colombian Sunrise">
-                <h3>Colombian Sunrise</h3>
-                <p>A medium roast with hints of caramel and citrus, perfect for a bright start to your day.</p>
-                <div class="price">₱196.00</div>
+                <img src="img/coffee_beans.jpg" alt="Arabica">
+                <h3>Arabica</h3>
+                <p>Meet Arabica, the suave and sophisticated coffee bean that knows how to charm your taste buds.</p>
+                <div class="price">₱179.00</div>
             </div>
             <div class="menu-item">
-                <img src="espresso.jpg" alt="Espresso">
-                <h3>Espresso</h3>
-                <p>A rich and intense shot of pure coffee, with a deep aroma and a smooth crema on top.</p>
-                <div class="price">₱140.00</div>
+                <img src="img/fresh_beans_coffe.jpg" alt="Liberica Beans">
+                <h3>Liberica Beans</h3>
+                <p>Craving something a little different? Liberica beans are here to take you on a flavor journey like no other.</p>
+                <div class="price">₱249.00</div>
             </div>
             <div class="menu-item">
-                <img src="italian_dark_roast.jpg" alt="Italian Dark Roast">
-                <h3>Italian Dark Roast</h3>
-                <p>A bold and robust blend with a smooth, rich finish. Ideal for those who love a strong cup.</p>
-                <div class="price">₱224.00</div>
-            </div>
-            <div class="menu-item">
-                <img src="latte.jpg" alt="Latte">
-                <h3>Latte</h3>
-                <p>A smooth blend of espresso and steamed milk, topped with a light layer of foam.</p>
-                <div class="price">₱224.00</div>
+                <img src="img/Ice_coffee.jpg" alt="Excelsa Breeze">
+                <h3>Excelsa Breeze</h3>
+                <p>Ready for something refreshingly different? The Excelsa Breeze is here to cool you down with its unique blend of tart and rich flavors. </p>
+                <div class="price">₱99.00</div>
             </div>
         </div>
     </div>
