@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozyCup Coffee House Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #333;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+        .menu-item h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .menu-item p {
+            color: #777;
+            margin: 0 0 15px;
+            padding: 0 15px;
+        }
+        .menu-item .price {
+            font-size: 1.25rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            if (window.self === window.top) {
+                // Redirect if not in iframe
+                window.location.href = "index.html";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Our Coffees</h1>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>A classic coffee with a perfect balance of espresso, steamed milk, and foam.</p>
+                <div class="price">₱224.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="colombian_sunrise.jpg" alt="Colombian Sunrise">
+                <h3>Colombian Sunrise</h3>
+                <p>A medium roast with hints of caramel and citrus, perfect for a bright start to your day.</p>
+                <div class="price">₱196.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="espresso.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>A rich and intense shot of pure coffee, with a deep aroma and a smooth crema on top.</p>
+                <div class="price">₱140.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="italian_dark_roast.jpg" alt="Italian Dark Roast">
+                <h3>Italian Dark Roast</h3>
+                <p>A bold and robust blend with a smooth, rich finish. Ideal for those who love a strong cup.</p>
+                <div class="price">₱224.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="latte.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>A smooth blend of espresso and steamed milk, topped with a light layer of foam.</p>
+                <div class="price">₱224.00</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
