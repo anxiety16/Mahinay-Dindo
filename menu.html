@@ -2,75 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CozyCup Coffee House Menu</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .highlight {
-        color: #654321; 
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .header h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            color: #333;
-        }
-        .menu-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .menu-item {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            text-align: center;
-        }
-        .menu-item img {
-            width: 100%;
-            height: auto;
-        }
-        .menu-item h3 {
-            margin: 15px 0;
-            font-size: 1.5rem;
-            color: #333;
-        }
-        .menu-item p {
-            color: #777;
-            margin: 0 0 15px;
-            padding: 0 15px;
-        }
-        .menu-item .price {
-            font-size: 1.25rem;
-            color: #333;
-            margin-bottom: 20px;
-        }
-    </style>
-    <script>
-        window.onload = function() {
-            if (window.self === window.top) {
-                window.location.href = "index.html";
-            }
-        }
-    </script>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="CozyCup Café Logo">
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="/About.html">About Us</a></li>
+                <li><a href="/Contact.html">Contact</a></li>s
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="header">
             <h1><span class="highlight">Our Coffee</span>
@@ -102,5 +52,48 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="header">
+            <h1><span class="highlight">Pastry Menu</span>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/Rolls.jpg" alt="Honey Baklava Rolls">
+                <h3>Honey Baklava Rolls</h3>
+                <p>reat yourself to the irresistible sweetness of our Honey Baklava Rolls. These delicate rolls are layered with finely chopped nuts and drizzled with fragrant honey.</p>
+                <div class="price">₱76.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="img/Croissants.jpg" alt="Classic French Croissants">
+                <h3>Classic French Croissants</h3>
+                <p>Freshly baked to golden perfection, each layer promises a delicate crunch that melts in your mouth.</p>
+                <div class="price">₱58.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="img/Cream_horns.jpg" alt="Italian Cream stuffed connoncini(CreamHorns)">
+                <h3>Italian Cream stuffed connoncini"</h3>
+                <p>Each bite is a harmonious blend of crisp pastry and smooth, rich filling, making it impossible to resist.</p>
+                <div class="price">₱99.00</div>
+            </div>
+            <div class="menu-item">
+                <img src="img/cake.jpg" alt="Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Choose from a variety of flavors, each made with the finest ingredients and baked with love. </p>
+                <div class="price">₱149.00</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Social Media</h2><br>
+        <dev>
+            <h5 class="fa-regular fa-envelope">Email</h5><br>
+        </dev>
+        <dev>
+            <h5 class="fa-brands fa-instagram">Instagram</h5><br>
+        </dev>
+        <dev>
+            <h5 class="fa-brands fa-square-facebook">Facebook</h5>
+        </dev>
+    </footer>
 </body>
 </html>
