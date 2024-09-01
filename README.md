@@ -40,3 +40,29 @@ Embedded Google Maps: Find us easily with our location on Google Maps, so you kn
 > Provides our address, phone number, and email for easy contact.
 
 ---
+
+## About the Authors
+<img src="img/jhonny.png" width="150" style="border-radius: 50%;">
+
+### **Jhonny Mahinay**
+
+> **jhonnymahinay3@gmail.com**
+
+**Social Links**
+
+> [![Facebook Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Facebook_white.png 'Facebook Account')](https://www.facebook.com/jhonny.hinayam/)
+
+> [![Github Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Github_white.png 'Github Account')](https://github.com/anxiety16)
+
+
+<img src="img/dindo.png" width="150" style="border-radius: 50%;">
+
+### **Dindo Agustin**
+
+> **202280012@psu.palawan.edu.ph**
+
+**Social Links**
+
+> [![Facebook Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Facebook_white.png 'Facebook Account')](https://www.facebook.com/dindo.agustin.142/)
+
+> [![Github Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Github_white.png 'Github Account')](https://github.com/0go40410tng2)
