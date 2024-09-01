@@ -20,3 +20,23 @@ Contact Page: Get in touch with us through our address, phone number, and email 
 Embedded Google Maps: Find us easily with our location on Google Maps, so you know exactly where to visit.
 
 ---
+## Screen Captures
+![Home](img/homepage.png)
+> Showcases our best-selling coffee drinks and pastries with vibrant images and descriptions.
+
+---
+
+![Menu](img/menu.png)
+> Displays all our offerings, including details, prices, and customization options.
+
+---
+
+![About Us](img/about_us.png)
+> Highlights our story, mission, and what makes Coffee Break special.
+
+---
+
+![Contant Information](img/contact_info.png)
+> Provides our address, phone number, and email for easy contact.
+
+---
